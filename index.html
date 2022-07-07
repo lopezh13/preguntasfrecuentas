@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>motoshop-preguntasfrecuentes</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<style>
+    body{
+        background: url(./img/fondon.png);
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    .container{
+        margin-top: 80px;
+    }
+    .first{
+        background: #adf3ffea;
+    }
+    .second{
+        background: #dbf7c3ea;
+    }
+    .third{
+        background: #ffffffea;
+    }
+    .page-header .navbar{
+        padding: 1rem 0;
+    }
+
+    #emailHelp{
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <header class="fixed-top page-header">
+        <!-- Creando una barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #072034d9;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" width="120" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="https://lopezh13.github.io/inicio/">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="https://lopezh13.github.io/productos/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/motocicletas/">motocicletas</a></li>
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/baterias/">Baterias para motocicleta</a></li>
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/casco/">Casco</a></li>
+                    <li><a class="dropdown-item" href="https://lopezh13.github.io/guantes/">Guantes</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://lopezh13.github.io/contactanos/">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://lopezh13.github.io/preguntasfrecuentas/">Preguntas frecuentes</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 third">
+                <center><img src="img/logo.png" width="500px" alt=""><p><i><b>pasión en movimiento</b></p></i></center>
+                <div class="alert alert-dark" role="alert">
+                    Si te encantan las motos, en Motoshop encuentras todo para equiparte. 
+                    Motoshop es una tienda especializada en productos para motociclistas, en nuestras 
+                    tiendas encontrarás cascos certificados, jackets, botas, guantes, equipo de protección, accesorios 
+                    para tu motocicleta, maletas, baúles, escapes luces led, y mucho más.
+                    <br><br>
+                    Para tu seguridad, vendemos únicamente equipos certificados, invertir en tu 
+                    seguridad nunca será una mala inversión, no te engañes, compra certificaciones 
+                    DOT, ECE 2205 ó sharp 4 estrellas.
+                    <br>
+                    <hr>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Tiempo de entrega
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                El tiempo de entrega depende del municipio. En las cabeceras departamentales se realizan entregas 24 Horas 
+                                máximo después de hacer la compra, en los demás municipios de 24 a 28 horas.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                ¿Quién me entrega mi paquete?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Los envíos serán por medio Caex Paquetería Express, empresa de correo con 
+                                cobertura a nivel nacional, ellos se encargaran de llevarte tu producto.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Formas de pago
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Las formas de pago serán las siguientes:
+                                <ol>
+                                    <li>Pago con tarjeta de crédito VISA o MASTERCARD.</li>
+                                    <li>Transferencia bancaria.</li>
+                                    <li>Pago contra entrega.</li>
+                                </ol>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Devoluciones de producto.
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                SI el producto que recibió no es igual al de la página web, se puede hacer el cambio por el producto correspondiente. 
+                                Es importante conservar la factura o crédito fiscal.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>                    
+    </div>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <p>siguenos en nuestras redes sociales como @motoshop &#x1F447;</p>
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-dark btn-floating m-1"
+            style="background-color: #fbfbfb;"
+            href="https://facebook.com/"
+            role="button"
+            ><i class="fab fa-facebook-f"><img src="img/5340250_book_face_facebook_fb_icon.png" alt="" width="34px"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+          class="btn btn-dark btn-floating m-1"
+          style="background-color: #fbfbfb;"
+            href="https://twitter.com/"
+            role="button"
+            ><i class="fab fa-twitter"><img src="img/104501_twitter_bird_icon.png" alt="" width="34px"></i
+          ></a>
+          <!-- Instagram -->
+          <a
+          class="btn btn-dark btn-floating m-1"
+          style="background-color: #fbfbfb;"
+            href="https://instagram.com/"
+            role="button"
+            ><i class="fab fa-instagram"><img src="img/1161953_instagram_icon.png" alt="" width="34px"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <center><div class="text-center p-3">
+        <img src="./img/logo.png" alt="" width="160px">| ©Copyright 2022 |
+        <a class="text-white" href="https://motoshop.com/">motoshop.com</a>
+      </div></center>
+      <!-- Copyright -->
+    </footer>
+</body>
+</html>
